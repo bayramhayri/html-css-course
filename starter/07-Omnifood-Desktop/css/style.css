@@ -51,9 +51,9 @@ body {
   color: #555;
 }
 
-/**********************/
+/************************/
 /* GENERAL COMPONENTS */
-/**********************/
+/************************/
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -102,9 +102,32 @@ body {
   margin-right: 1.6rem !important;
 }
 
-/**********************/
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/************************/
 /* HEADER */
-/**********************/
+/************************/
 .header {
   display: flex;
   justify-content: space-between;
@@ -118,9 +141,9 @@ body {
   height: 2.2rem;
 }
 
-/**********************/
+/************************/
 /* NAVIGATION */
-/**********************/
+/************************/
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -156,9 +179,9 @@ body {
   background-color: #cf711f;
 }
 
-/**********************/
+/************************/
 /* HERO SECTION */
-/**********************/
+/************************/
 .section-hero {
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
@@ -215,4 +238,13 @@ body {
 .delivered-text span {
   color: #cf711f;
   font-weight: 700;
+}
+
+/************************/
+/* HOW IT WORKS SECTION */
+/************************/
+
+.section-how {
+  padding: 9.6rem 0;
+  background-color: orangered;
 }
