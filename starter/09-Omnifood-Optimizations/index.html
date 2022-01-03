@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
+    <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
     <script defer src="js/script.js"></script>
     <title>Omnifood</title>
   </head>
@@ -30,7 +31,11 @@
             >
           </li>
           <li><a class="main-nav-link" href="#section-pricing">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#section-cta"
+              >Try for free</a
+            >
+          </li>
         </ul>
       </nav>
 
@@ -52,7 +57,7 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#section-cta" class="btn btn--full margin-right-sm"
               >Start eating well</a
             >
             <a href="#section-how" class="btn btn--outline"
@@ -533,7 +538,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section id="section-cta" class="section-cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
